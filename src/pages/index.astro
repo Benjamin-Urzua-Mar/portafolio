@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.jsx'
+import Experiencia from '../components/Experiencia.jsx'
+import Habilidades from '../components/Habilidades.jsx'
+import Proyectos from '../components/Proyectos.astro'
+import SobreMi from '../components/SobreMi';
+
+---
+<style>
+	.card-body{
+		box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	}
+</style>
+
+<Layout title="Benjamín Urzúa">
+	<Header></Header>
+	<main class="container mx-auto px-4 ltb:px-10  py-12 font-raleway">
+		<SobreMi></SobreMi>
+		<Experiencia></Experiencia>
+		<Habilidades></Habilidades>
+		<Proyectos></Proyectos>
+	</main>
+</Layout>
+
+
