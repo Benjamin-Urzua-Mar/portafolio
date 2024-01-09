@@ -9,7 +9,7 @@ const Header = () => {
         <section>
           <h1 className="text-4xl font-bold mb-1">Benjamín Urzúa</h1>
           <small className="text-default-700 font-medium">b.urzua.mar@gmail.com</small><br />
-          <Button href="../../public/BenjaminUrzua_CV.pdf" target="_blank" as={Link} className="mt-3 font-semibold border-[0.5px] border-[#6246ea] bg-white" variant='bordered' radius='sm'>
+          <Button href="./BenjaminUrzua_CV.pdf" target="_blank" as={Link} className="mt-3 font-semibold border-[0.5px] border-[#6246ea] bg-white" variant='bordered' radius='sm'>
             Visualizar CV
           </Button>
         </section>
