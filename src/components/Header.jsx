@@ -2,13 +2,15 @@ import { Button, Link, Divider } from '@nextui-org/react';
 import { SlSocialLinkedin, SlSocialGithub } from "react-icons/sl";
 import { FaRegEnvelope } from "react-icons/fa";
 const Header = () => {
+  
   return (
     <header className="w-full pt-10 bg-gray-100 ">
       <div className="container flex flex-col mx-auto text-center">
         <section>
-          <h1 className="text-4xl font-bold">Benjamín Urzúa</h1>
-          <Button href="../../public/BenjaminUrzua_CV.pdf" download="BenjaminUrzua_CV.pdf" as={Link} className="mt-5 font-semibold border-[0.5px] border-[#6246ea] bg-white" variant='bordered' radius='sm'>
-            Descargar CV
+          <h1 className="text-4xl font-bold mb-1">Benjamín Urzúa</h1>
+          <small className="text-default-700 font-medium">b.urzua.mar@gmail.com</small><br />
+          <Button href="../../public/BenjaminUrzua_CV.pdf" target="_blank" as={Link} className="mt-3 font-semibold border-[0.5px] border-[#6246ea] bg-white" variant='bordered' radius='sm'>
+            Visualizar CV
           </Button>
         </section>
 
