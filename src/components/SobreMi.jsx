@@ -17,7 +17,7 @@ const SobreMi = () => {
                 <h2 className="text-3xl font-bold mb-4">Sobre mi</h2>
                 <Card className='p-5 mb-12'>
                     <p className="text-gray-600 pb-2">
-                        Me llamo Benjamín, soy egresado de Analista Programador e Ingeniería en Informática. Mi interés por la tecnología ha sido una constante en mi vida, comenzando desde mi infancia. Tuve la suerte de crecer con acceso a un computador, lo que alimentó mi fascinación por la informática. Esta pasión me ha llevado a tener una gran habilidad para entender rápidamente las tecnologías y adaptarme a nuevas informaciones y herramientas en este campo. Mis estudios formales, combinados con mi capacidad para aprender de manera autodidacta, me han permitido seguir creciendo y manteniendo mi interés en aprender y dominar nuevas tecnologías en el siempre evolutivo mundo de la informática.
+                        Egresado de Analista Programador y titulado de Ingeniería en Informática. Mi interés por la tecnología ha sido una constante en mi vida, comenzando desde mi infancia. Tuve la suerte de crecer con acceso a un computador, lo que alimentó mi fascinación por la informática. Esta pasión me ha llevado a tener una gran habilidad para entender rápidamente las tecnologías y adaptarme a nuevas informaciones y herramientas en este campo. Mis estudios formales, combinados con mi capacidad para aprender de manera autodidacta, me han permitido seguir creciendo y manteniendo mi interés en aprender y dominar nuevas tecnologías en el siempre evolutivo mundo de la informática.
                     </p>
                 </Card>
                 <h2 className="text-3xl font-bold mb-4">Intereses</h2>
