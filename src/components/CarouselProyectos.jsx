@@ -16,52 +16,6 @@ const CarouselProyectos = () => {
           modules={[Autoplay]}
           className='h-[430px]'
         >
-
-          <SwiperSlide >
-            <Card className="col-span-12 sm:col-span-4 h-[400px]">
-              <CardHeader className="card-header absolute z-10 top-0 flex-col !items-start  bg-gradient-to-b from-[#35353585] to-transparent">
-                <h3 className="text-white font-semibold text-xl">Calculadora en JavaScript</h3>
-              </CardHeader>
-              <CardBody className="card-body absolute z-10 bottom-0 flex-col !items-start bg-white rounded-t-sm shadow-inner">
-                <p className="text-default-700 font-medium font-century-gothic text-medium">De mis primeros acercamientos a JavaScript, una simple calculadora con las tecnologías en su estado puro.</p>
-                <section className='inline-flex gap-4 font-medium'>
-                  <Chip size='sm' className="mt-2 bg-[#f06529] text-white ">#HTML5</Chip>
-                  <Chip size='sm' className="mt-2 bg-[#2965f1] text-white ">#CSS3</Chip>
-                  <Chip size='sm' className="mt-2 bg-[#f0db4f] text-white ">#JavaScript</Chip>
-                </section>
-              </CardBody>
-              <Image
-                removeWrapper
-                className="z-0 w-full h-full object-cover cursor-pointer transition duration-[1] ease-in-out hover:brightness-90"
-                src="./calculadora.jpeg"
-                onClick={() => window.open('https://silly-cendol-10d595.netlify.app/')}
-              />
-            </Card>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Card className="col-span-12 sm:col-span-4 h-[400px]">
-              <CardHeader className="card-header absolute z-10 top-0 flex-col !items-start bg-gradient-to-b from-[#353535bb] to-transparent">
-                <h3 className="text-white font-semibold text-xl">Periódico New World</h3>
-              </CardHeader>
-              <CardBody className="absolute z-10 bottom-0 flex-col !items-start bg-white rounded-t-sm shadow-inner">
-                <p className="text-default-700 font-medium font-century-gothic text-medium">Periodico ficticio New World. Fue un proyecto donde aprendí principalmente conceptos de diseño y organización de la web.</p>
-                <section className='inline-flex gap-4 font-medium'>
-                  <Chip size='sm' className="mt-2 bg-[#f06529] text-white ">#HTML5</Chip>
-                  <Chip size='sm' className="mt-2 bg-[#2965f1] text-white ">#CSS3</Chip>
-                  <Chip size='sm' className="mt-2 bg-[#f0db4f] text-white ">#JavaScript</Chip>
-                  <Chip size='sm' className="mt-2 bg-[#563d7c] text-white ">#Bootstrap</Chip>
-                </section>
-              </CardBody>
-              <Image
-                removeWrapper
-                className="z-0 w-full h-full object-cover cursor-pointer transition duration-[1] ease-in-out hover:brightness-90"
-                src="./periodico.jpeg"
-                onClick={() => window.open('https://sensational-hummingbird-ed0fa8.netlify.app/')}
-              />
-            </Card>
-          </SwiperSlide>
-
           <SwiperSlide>
             <Card className="col-span-12 sm:col-span-4 h-[400px]">
               <CardHeader className="card-header absolute z-10 top-0 flex-col !items-start bg-gradient-to-b from-[#353535bb] to-transparent">
