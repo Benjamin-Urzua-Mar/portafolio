@@ -81,7 +81,7 @@ const CarouselProyectos = () => {
                 alt="Card background"
                 className="z-0 w-full h-full object-cover cursor-pointer transition duration-[1] ease-in-out hover:brightness-90"
                 src="./emplify.jpeg"
-                onClick={() => window.open('https://dashing-croquembouche-08f896.netlify.app/')}
+                onClick={() => window.open('https://emplify.burzua.lat/')}
               />
             </Card>
           </SwiperSlide>
