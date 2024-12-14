@@ -15,7 +15,7 @@ const Experiencia = () => {
                         </div>
                         <div className='flex flex-col'>
                             <h3 className="text-xl ltb:text-2xl font-semibold justify-self-start">Desarrollador Full-Stack para EfeByte <small className='text-sm text-foreground-500'>2 meses</small></h3>
-                            <Chip size='sm' className="mt-2 bg-[#6246ea] text-white ">2022 - 2022</Chip>
+                            <Chip size='sm' className="mt-2 bg-[#6246ea] text-white ">2021 - 2021</Chip>
                         </div>
                     </CardHeader>
                     <CardBody>
@@ -29,7 +29,7 @@ const Experiencia = () => {
                     <CardHeader>
                     <div className='p-2'>
                             <img
-                                alt="Efebyte logo"
+                                alt="Certificadora del sur logo"
                                 width={80}
                                 src="./logo_CDS.png"
                             />
