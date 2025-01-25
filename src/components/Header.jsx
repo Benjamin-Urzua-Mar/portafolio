@@ -17,7 +17,7 @@ const Header = () => {
         <p className="text-medium ltb:text-2xl mt-6">Desarrollador Full-Stack apasionado por la informática</p>
         <div className="mt-6 space-x-5 mb-5">
           <Link isExternal href='https://www.linkedin.com/in/benjam%C3%ADn-andr%C3%A9s-urz%C3%BAa-mart%C3%ADnez-722215206/' className='text-[#6246ea] hover:cursor-pointer'><SlSocialLinkedin size='20px' /></Link>
-          <Link isExternal href='https://github.com/Benjamin-Urzua' className='text-[#6246ea] hover:cursor-pointer'><SlSocialGithub size='20px' /></Link>
+          <Link isExternal href='https://github.com/Benjamin-Urzua-Mar' className='text-[#6246ea] hover:cursor-pointer'><SlSocialGithub size='20px' /></Link>
           <Link isExternal href='mailto:b.urzua.mar@gmail.com' className='text-[#6246ea] hover:cursor-pointer'><FaRegEnvelope size='20px' /></Link>
         </div>
 

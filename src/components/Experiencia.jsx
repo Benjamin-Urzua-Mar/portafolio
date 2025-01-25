@@ -35,7 +35,7 @@ const Experiencia = () => {
                             />
                         </div>
                         <div className='flex flex-col'>
-                            <h3 className="text-xl ltb:text-2xl font-semibold justify-self-start">Desarrollador Full-Stack para Certificadora del Sur <small className='text-sm text-foreground-500'>7 meses</small></h3>
+                            <h3 className="text-xl ltb:text-2xl font-semibold justify-self-start">Desarrollador Full-Stack para Certificadora del Sur <small className='text-sm text-foreground-500'>11 meses</small></h3>
                             <Chip size='sm' className="mt-2 bg-[#6246ea] text-white ">2024 - Actualidad</Chip>
                         </div>
                     </CardHeader>
