@@ -19,6 +19,34 @@ const CarouselProyectos = () => {
           <SwiperSlide>
             <Card className="col-span-12 sm:col-span-4 h-[400px]">
               <CardHeader className="card-header absolute z-10 top-0 flex-col !items-start bg-gradient-to-b from-[#353535bb] to-transparent">
+                <h3 className="text-white font-semibold text-xl">TuIAbogado</h3>
+              </CardHeader>
+              <CardBody className="absolute z-10 bottom-0 flex-col !items-start bg-white rounded-t-sm shadow-inner">
+                <p className="text-default-700 font-medium font-century-gothic text-medium">Tuve alta participación en este proyecto. Plataforma de creación, emisión y venta de documentos legales que implementa pagos online con WebPay, se integra con sistema de Firmas Electrónicas (REST) y con sistema de facturación (WSDL) directamente conectado a SII, ambos últimos proporcionados por Certificadora del Sur.</p>
+                <section className='inline-flex gap-1 font-medium'>
+                  <Chip size='sm' className="mt-2 bg-[#f06529] text-white ">#HTML5 - JSP</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#2965f1] text-white ">#CSS3</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#6f42c1] text-white ">#Bootstrap</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#f0db4f] text-white ">#JavaScript</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#0769ad] text-white ">#Jquery</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#f89820] text-white ">#Java</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#aca69f] text-white ">#Hibernate</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#699eca] text-white ">#Postgres</Chip>
+                </section>
+              </CardBody>
+              <Image
+                removeWrapper
+                alt="Card background"
+                className="z-0 w-full h-full object-cover cursor-pointer transition duration-[1] ease-in-out hover:brightness-90"
+                src="./tuiabogados.jpeg"
+                onClick={() => window.open('https://servicios.tuiabogado.cl/')}
+              />
+            </Card>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <Card className="col-span-12 sm:col-span-4 h-[400px]">
+              <CardHeader className="card-header absolute z-10 top-0 flex-col !items-start bg-gradient-to-b from-[#353535bb] to-transparent">
                 <h3 className="text-white font-semibold text-xl">Emplify</h3>
               </CardHeader>
               <CardBody className="absolute z-10 bottom-0 flex-col !items-start bg-white rounded-t-sm shadow-inner">
@@ -41,35 +69,7 @@ const CarouselProyectos = () => {
                 alt="Card background"
                 className="z-0 w-full h-full object-cover cursor-pointer transition duration-[1] ease-in-out hover:brightness-90"
                 src="./emplify.jpeg"
-                onClick={() => window.open('https://emplify.burzua.lat/')}
-              />
-            </Card>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Card className="col-span-12 sm:col-span-4 h-[400px]">
-              <CardHeader className="card-header absolute z-10 top-0 flex-col !items-start bg-gradient-to-b from-[#353535bb] to-transparent">
-                <h3 className="text-white font-semibold text-xl">TuIAbogado</h3>
-              </CardHeader>
-              <CardBody className="absolute z-10 bottom-0 flex-col !items-start bg-white rounded-t-sm shadow-inner">
-                <p className="text-default-700 font-medium font-century-gothic text-medium">Tuve alta participación en este proyecto. Plataforma de creación, emisión y venta de documentos legales que implementa pagos online con WebPay, se integra con sistema de Firmas Electrónicas (REST) y con sistema de facturación (WSDL) directamente conectado a SII, ambos últimos proporcionados por Certificadora del Sur.</p>
-                <section className='inline-flex gap-1 font-medium'>
-                  <Chip size='sm' className="mt-2 bg-[#f06529] text-white ">#HTML5 - JSP</Chip>
-                  <Chip size='sm' className="mt-2 bg-[#2965f1] text-white ">#CSS3</Chip>
-                  <Chip size='sm' className="mt-2 bg-[#6f42c1] text-white ">#Bootstrap</Chip>
-                  <Chip size='sm' className="mt-2 bg-[#f0db4f] text-white ">#JavaScript</Chip>
-                  <Chip size='sm' className="mt-2 bg-[#0769ad] text-white ">#Jquery</Chip>
-                  <Chip size='sm' className="mt-2 bg-[#f89820] text-white ">#Java</Chip>
-                  <Chip size='sm' className="mt-2 bg-[#aca69f] text-white ">#Hibernate</Chip>
-                  <Chip size='sm' className="mt-2 bg-[#699eca] text-white ">#Postgres</Chip>
-                </section>
-              </CardBody>
-              <Image
-                removeWrapper
-                alt="Card background"
-                className="z-0 w-full h-full object-cover cursor-pointer transition duration-[1] ease-in-out hover:brightness-90"
-                src="./tuiabogados.jpeg"
-                onClick={() => window.open('https://servicios.tuiabogado.cl/')}
+                onClick={() => alert("Lamentablemente no cuento con un hosting para poder alojar este proyecto")}
               />
             </Card>
           </SwiperSlide>
