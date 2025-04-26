@@ -22,7 +22,7 @@ const CarouselProyectos = () => {
                 <h3 className="text-white font-semibold text-xl">TuIAbogado</h3>
               </CardHeader>
               <CardBody className="absolute z-10 bottom-0 flex-col !items-start bg-white rounded-t-sm shadow-inner">
-                <p className="text-default-700 font-medium font-century-gothic text-medium">Tuve alta participación en este proyecto. Plataforma de creación, emisión y venta de documentos legales que implementa pagos online con WebPay, se integra con sistema de Firmas Electrónicas (REST) y con sistema de facturación (WSDL) directamente conectado a SII, ambos últimos proporcionados por Certificadora del Sur.</p>
+                <p className="text-default-700 font-medium font-century-gothic text-medium">Formé parte del desarrollo. Plataforma de creación, emisión y venta de documentos legales.</p>
                 <section className='inline-flex gap-1 font-medium'>
                   <Chip size='sm' className="mt-2 bg-[#f06529] text-white ">#HTML5 - JSP</Chip>
                   <Chip size='sm' className="mt-2 bg-[#2965f1] text-white ">#CSS3</Chip>
@@ -39,7 +39,6 @@ const CarouselProyectos = () => {
                 alt="Card background"
                 className="z-0 w-full h-full object-cover cursor-pointer transition duration-[1] ease-in-out hover:brightness-90"
                 src="./tuiabogados.jpeg"
-                onClick={() => window.open('https://servicios.tuiabogado.cl/')}
               />
             </Card>
           </SwiperSlide>
@@ -90,7 +89,7 @@ const CarouselProyectos = () => {
                 <h3 className="text-white font-semibold text-xl">TuIAbogado</h3>
               </CardHeader>
               <CardBody className="absolute z-10 bottom-0 flex-col !items-start bg-white rounded-t-sm shadow-inner">
-                <p className="text-default-700 font-medium font-century-gothic text-medium">Tuve alta participación en este proyecto. Plataforma de creación, emisión y venta de documentos legales que implementa pagos online con WebPay, se integra con sistema de Firmas Electrónicas (REST) y con sistema de facturación (WSDL) directamente conectado a SII, ambos últimos proporcionados por Certificadora del Sur.</p>
+                <p className="text-default-700 font-medium font-century-gothic text-medium">Formé parte del desarrollo. Plataforma de creación, emisión y venta de documentos legales.</p>
                 <section className='inline-flex gap-1 font-medium'>
                   <Chip size='sm' className="mt-2 bg-[#f06529] text-white ">#HTML5 - JSP</Chip>
                   <Chip size='sm' className="mt-2 bg-[#2965f1] text-white ">#CSS3</Chip>
@@ -107,7 +106,6 @@ const CarouselProyectos = () => {
                 alt="Card background"
                 className="z-0 w-full h-full object-cover cursor-pointer transition duration-[1] ease-in-out hover:brightness-90"
                 src="./tuiabogados.jpeg"
-                onClick={() => window.open('https://servicios.tuiabogado.cl/')}
               />
             </Card>
           </SwiperSlide>
