@@ -46,6 +46,32 @@ const CarouselProyectos = () => {
           <SwiperSlide>
             <Card className="col-span-12 sm:col-span-4 h-[400px]">
               <CardHeader className="card-header absolute z-10 top-0 flex-col !items-start bg-gradient-to-b from-[#353535bb] to-transparent">
+                <h3 className="text-white font-semibold text-xl">PokeGrid - PokeAPI</h3>
+              </CardHeader>
+              <CardBody className="absolute z-10 bottom-0 flex-col !items-start bg-white rounded-t-sm shadow-inner">
+                <p className="text-default-700 font-medium font-century-gothic text-medium">Proyecto de React aplicando TypeScript y Tailwind. Permite explorar el mundo de los pokémon aplicando sistemas de filtro, paginación y favoritos. Mas detalles: <a className="text-[#6246ea] underline" href='https://github.com/Benjamin-Urzua-Mar/pokeapi-pokegrid' target='_blank'>Repositorio Github</a>.</p>
+                <section className='inline-flex gap-1 font-medium'>
+                  <Chip size='sm' className="mt-2 bg-[#16becb] text-white ">#React</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#3c873a] text-white ">#Node.js</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#3178c6] text-white ">#Typescript</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#563d7c] text-white ">#Tailwind</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#BD34FE] text-white ">#Vite</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#0e7b0c] text-white ">#Jest</Chip>
+                </section>
+              </CardBody>
+              <Image
+                removeWrapper
+                alt="Card background"
+                className="z-0 w-full h-full object-cover cursor-pointer transition duration-[1] ease-in-out hover:brightness-90"
+                src="./pokegrid.jpeg"
+                onClick={() => window.open('https://pokeapi-pokegrid.vercel.app/', '_blank')}
+              />
+            </Card>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <Card className="col-span-12 sm:col-span-4 h-[400px]">
+              <CardHeader className="card-header absolute z-10 top-0 flex-col !items-start bg-gradient-to-b from-[#353535bb] to-transparent">
                 <h3 className="text-white font-semibold text-xl">Emplify</h3>
               </CardHeader>
               <CardBody className="absolute z-10 bottom-0 flex-col !items-start bg-white rounded-t-sm shadow-inner">
@@ -109,6 +135,33 @@ const CarouselProyectos = () => {
               />
             </Card>
           </SwiperSlide>
+
+          <SwiperSlide>
+            <Card className="col-span-12 sm:col-span-4 h-[400px]">
+              <CardHeader className="card-header absolute z-10 top-0 flex-col !items-start bg-gradient-to-b from-[#353535bb] to-transparent">
+                <h3 className="text-white font-semibold text-xl">PokeGrid - PokeAPI</h3>
+              </CardHeader>
+              <CardBody className="absolute z-10 bottom-0 flex-col !items-start bg-white rounded-t-sm shadow-inner">
+                <p className="text-default-700 font-medium font-century-gothic text-medium">Proyecto de React aplicando TypeScript y Tailwind. Permite explorar el mundo de los pokémon aplicando sistemas de filtro, paginación y favoritos. Mas detalles: <a className="text-[#6246ea] underline" href='https://github.com/Benjamin-Urzua-Mar/pokeapi-pokegrid' target='_blank'>Repositorio Github</a>.</p>
+                <section className='inline-flex gap-1 font-medium'>
+                  <Chip size='sm' className="mt-2 bg-[#16becb] text-white ">#React</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#3c873a] text-white ">#Node.js</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#3178c6] text-white ">#Typescript</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#563d7c] text-white ">#Tailwind</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#BD34FE] text-white ">#Vite</Chip>
+                  <Chip size='sm' className="mt-2 bg-[#0e7b0c] text-white ">#Jest</Chip>
+                </section>
+              </CardBody>
+              <Image
+                removeWrapper
+                alt="Card background"
+                className="z-0 w-full h-full object-cover cursor-pointer transition duration-[1] ease-in-out hover:brightness-90"
+                src="./pokegrid.jpeg"
+                onClick={() => window.open('https://pokeapi-pokegrid.vercel.app/', '_blank')}
+              />
+            </Card>
+          </SwiperSlide>
+
           <SwiperSlide>
             <Card className="col-span-12 sm:col-span-4 h-[400px]">
               <CardHeader className="card-header absolute z-10 top-0 flex-col !items-start bg-gradient-to-b from-[#353535bb] to-transparent">
