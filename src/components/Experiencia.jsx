@@ -5,7 +5,7 @@ const Experiencia = () => {
         const fechaActual = new Date();
 
         let aniosDiferencia = fechaActual.getFullYear() - fechaIngresoDate.getFullYear();
-        let mesesDiferencia = (fechaActual.getMonth() + 1) - fechaIngresoDate.getMonth();
+        let mesesDiferencia = fechaActual.getMonth() - fechaIngresoDate.getMonth();
 
         if (mesesDiferencia < 0) {
             aniosDiferencia--;
@@ -49,7 +49,7 @@ const Experiencia = () => {
                             />
                         </div>
                         <div className='flex flex-col'>
-                            <h3 className="text-xl ltb:text-2xl font-semibold justify-self-start">Desarrollador Full-Stack para Certificadora del Sur <small className='text-sm text-foreground-500'>{experienciaActual("03-04-2024")}</small></h3>
+                            <h3 className="text-xl ltb:text-2xl font-semibold justify-self-start">Desarrollador Full-Stack para Certificadora del Sur <small className='text-sm text-foreground-500'>{experienciaActual("2024-04-03")}</small></h3>
                             <Chip size='sm' className="mt-2 bg-[#6246ea] text-white">2024 - Actualidad</Chip>
                         </div>
                     </CardHeader>
