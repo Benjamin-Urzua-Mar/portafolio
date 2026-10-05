@@ -94,7 +94,7 @@ const CarouselProyectos = () => {
                 alt="Card background"
                 className="z-0 w-full h-full object-cover cursor-pointer transition duration-[1] ease-in-out hover:brightness-90"
                 src="./emplify.jpeg"
-                onClick={() => location.href = "https://burzuam.dpdns.org/"}
+                onClick={() => location.href = "https://emplify.dpdns.org/"}
               />
             </Card>
           </SwiperSlide>
@@ -187,7 +187,7 @@ const CarouselProyectos = () => {
                 alt="Card background"
                 className="z-0 w-full h-full object-cover cursor-pointer transition duration-[1] ease-in-out hover:brightness-90"
                 src="./emplify.jpeg"
-                onClick={() => location.href = "https://burzuam.dpdns.org/"}
+                onClick={() => location.href = "https://emplify.dpdns.org/"}
               />
             </Card>
           </SwiperSlide>
