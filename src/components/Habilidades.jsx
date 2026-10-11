@@ -76,20 +76,18 @@ const Habilidades = () => {
     return (
         <section id='habilidades' className="mb-12 mt-12">
             <h2 className="text-3xl font-bold mb-4">Habilidades y conocimientos</h2>
-            <Card className="grid grid-cols-1 gap-8 text-center p-4 md:p-6">
+            <Card className="p-4 ltb:p-6 divide-y divide-default-200">
                 {categorias.map(({ titulo, items }) => (
-                    <div key={titulo}>
-                        <h2 className="text-xl font-bold mb-4">{titulo}</h2>
-                        <div className="flex gap-1.5 md:gap-2 flex-wrap text-center justify-center">
+                    <div key={titulo} className="flex flex-col ltb:flex-row gap-3 ltb:gap-6 py-5 first:pt-0 last:pb-0">
+                        <h3 className="text-lg font-bold ltb:w-40 ltb:shrink-0 ltb:pt-2">{titulo}</h3>
+                        <ul className="grid grid-cols-2 tbt:grid-cols-3 ltb:grid-cols-5 gap-2 flex-1">
                             {items.map(({ icono: Icono, nombre }) => (
-                                <Card key={nombre} className='bg-[#6246ea] text-white w-[72px] md:w-[96px]'>
-                                    <div className='flex flex-col p-2 md:p-4 items-center'>
-                                        <Icono className='w-10 h-10 md:w-16 md:h-16' />
-                                        <h3 className="text-xs md:text-medium font-semibold mt-2 md:mt-4 leading-tight">{nombre}</h3>
-                                    </div>
-                                </Card>
+                                <li key={nombre} className="flex items-center gap-3 rounded-lg bg-[#6246ea]/10 px-3 py-2">
+                                    <Icono className="shrink-0 text-[#6246ea]" size="22px" />
+                                    <span className="text-sm font-semibold text-default-700 leading-tight">{nombre}</span>
+                                </li>
                             ))}
-                        </div>
+                        </ul>
                     </div>
                 ))}
             </Card>
