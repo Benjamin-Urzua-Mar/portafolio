@@ -75,7 +75,7 @@ const CarouselProyectos = () => {
                 <h3 className="text-white font-semibold text-xl">Emplify</h3>
               </CardHeader>
               <CardBody className="absolute z-10 bottom-0 flex-col !items-start bg-white rounded-t-sm shadow-inner">
-                <p className="text-default-700 font-medium font-century-gothic text-medium">Fue mi proyecto de título. Plataforma de red social de servicios laborales para conectar clientes con profesionales en servicios variados.</p>
+                <p className="text-default-700 font-medium font-century-gothic text-medium">Mi proyecto de título. Red social de servicios que conecta a clientes con profesionales de distintos rubros, con chat en tiempo real. Puedes recorrerla con la <a className="text-[#6246ea] underline" href='https://emplify.dpdns.org/demo' target='_blank'>guía de uso</a>. Repositorios: <a className="text-[#6246ea] underline" href='https://github.com/Benjamin-Urzua-Mar/emplify_client' target='_blank'>Cliente</a> y <a className="text-[#6246ea] underline" href='https://github.com/Benjamin-Urzua-Mar/emplify_server' target='_blank'>Servidor</a>.</p>
                 <section className='inline-flex gap-1 font-medium'>
                   <Chip size='sm' className="mt-2 bg-[#f06529] text-white ">#HTML5</Chip>
                   <Chip size='sm' className="mt-2 bg-[#2965f1] text-white ">#CSS3</Chip>
@@ -168,7 +168,7 @@ const CarouselProyectos = () => {
                 <h3 className="text-white font-semibold text-xl">Emplify</h3>
               </CardHeader>
               <CardBody className="absolute z-10 bottom-0 flex-col !items-start bg-white rounded-t-sm shadow-inner">
-                <p className="text-default-700 font-medium font-century-gothic text-medium">Fue mi proyecto de título. Plataforma de red social de servicios laborales para conectar clientes con profesionales en servicios variados.</p>
+                <p className="text-default-700 font-medium font-century-gothic text-medium">Mi proyecto de título. Red social de servicios que conecta a clientes con profesionales de distintos rubros, con chat en tiempo real. Puedes recorrerla con la <a className="text-[#6246ea] underline" href='https://emplify.dpdns.org/demo' target='_blank'>guía de uso</a>. Repositorios: <a className="text-[#6246ea] underline" href='https://github.com/Benjamin-Urzua-Mar/emplify_client' target='_blank'>Cliente</a> y <a className="text-[#6246ea] underline" href='https://github.com/Benjamin-Urzua-Mar/emplify_server' target='_blank'>Servidor</a>.</p>
                 <section className='inline-flex gap-1 font-medium'>
                   <Chip size='sm' className="mt-2 bg-[#f06529] text-white ">#HTML5</Chip>
                   <Chip size='sm' className="mt-2 bg-[#2965f1] text-white ">#CSS3</Chip>
